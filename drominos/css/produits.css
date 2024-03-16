@@ -1,0 +1,23 @@
+#allProducts .espaceProduit a {
+    text-decoration: none;
+}
+
+#allProducts .espaceProduit a:visited {
+    text-decoration: none;
+}
+
+#allProducts .buyIcon {
+    height: 20px;
+}
+
+#allProducts #allBoissons, #allProducts #allDesserts{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.boissons, .desserts {
+    flex-basis: 20%;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
